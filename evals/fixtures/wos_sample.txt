@@ -1,0 +1,4 @@
+PT	AU	TI	SO	PY	DI	TC	Z9	WC	SU	OA	DT	LA	UT
+J	Zhang, S	Populism and Political Communication	POLITICAL STUDIES	2021	10.1111/ps.12001	100	120	Political Science	Government & Law	OA	Article	English	WOS:000000001
+J	Lee, M	Digital Governance in Local China	PUBLIC ADMINISTRATION	2022	10.1111/pa.12002	50	60	Public Administration	Government & Law		Article	English	WOS:000000002
+J	Wang, L	A Review of Grassroots Governance	JOURNAL OF CHINESE STUDIES	2023		10	12	Area Studies	Government & Law	OA	Review	English	WOS:000000003

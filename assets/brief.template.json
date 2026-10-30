@@ -1,0 +1,9 @@
+﻿{
+  "topic": "",
+  "platform": "cnki",
+  "discipline": "",
+  "year_range": "2016-2026",
+  "target_count": 30,
+  "quality_gate": "cnki=CSSCI|北大核心; wos=Article|Review",
+  "deliverable": "索引.md + index.csv + 文献题录.txt + 正文/*.md"
+}

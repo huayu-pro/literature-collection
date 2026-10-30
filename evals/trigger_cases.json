@@ -1,0 +1,149 @@
+{
+  "recommended_threshold": 0.34,
+  "description_required_concepts": [
+    "literature",
+    "batch_action",
+    "platform",
+    "deliverable"
+  ],
+  "positive_concepts": {
+    "literature": [
+      "文献",
+      "论文",
+      "literature",
+      "papers",
+      "articles",
+      "参考文献",
+      "综述"
+    ],
+    "batch_action": [
+      "批量",
+      "搜集",
+      "收集",
+      "下载",
+      "找",
+      "补",
+      "导出",
+      "batch",
+      "collect",
+      "gather"
+    ],
+    "platform": [
+      "知网",
+      "cnki",
+      "wos",
+      "web of science",
+      "cssci",
+      "sci",
+      "ssci"
+    ],
+    "deliverable": [
+      "索引",
+      "题录",
+      "全文",
+      "markdown",
+      "正文",
+      "index",
+      "citations",
+      "参考文献",
+      "ris",
+      "bibtex"
+    ]
+  },
+  "negative_patterns": [
+    "单独查一篇",
+    "doi 是多少",
+    "绕过付费墙",
+    "付费墙",
+    "破解",
+    "新闻",
+    "公众号",
+    "爬取商品",
+    "招聘信息",
+    "single paper",
+    "bypass paywall",
+    "scrape news"
+  ],
+  "should_trigger": [
+    {
+      "text": "帮我搜集 30 篇 CSSCI 关于「基层治理数字化」的文献，2016 年以后，要 Markdown 正文和索引",
+      "family": "cn_batch_cnki_fulltext"
+    },
+    {
+      "text": "在 WOS 找 populism 与 political communication 交叉的文献，近十年，只要 Article/Review，先出清单再下载",
+      "family": "en_batch_wos"
+    },
+    {
+      "text": "写综述前帮我把这个主题的文献库建起来：知网 20 篇 + WOS 20 篇，去重后给索引",
+      "family": "cn_both_platforms"
+    },
+    {
+      "text": "把这批 PDF 批量转成 Markdown 并建索引，标注获取方式",
+      "family": "cn_pdf_backlog"
+    },
+    {
+      "text": "补 10 篇 2024 年以后的新文献，不要和已有的重复",
+      "family": "cn_topup"
+    },
+    {
+      "text": "把这批文献导出成题录文件，知网的用知网格式、WOS 的用 savedrecs 格式",
+      "family": "cn_export_citations"
+    },
+    {
+      "text": "下载失败的论文列一个清单给我，附知网链接和原因，我自己去下",
+      "family": "cn_missing_list"
+    },
+    {
+      "text": "把这个知网链接的正文抓成 Markdown，保留标题和脚注",
+      "family": "cn_single_html"
+    },
+    {
+      "text": "把查到的文献按 GB/T 7714 排成参考文献列表",
+      "family": "cn_gbt7714_export"
+    },
+    {
+      "text": "论文要投英文刊，帮我把这批文献导成 APA 格式的参考文献",
+      "family": "cn_apa_export"
+    },
+    {
+      "text": "把这批文献导出成 RIS，我要导进 Zotero",
+      "family": "cn_ris_export"
+    },
+    {
+      "text": "在这个主题已有的文献基础上再补 10 篇新的，不要重复",
+      "family": "cn_incremental_topup"
+    }
+  ],
+  "should_not_trigger": [
+    {
+      "text": "帮我查这篇论文的 DOI 是多少",
+      "family": "single_lookup"
+    },
+    {
+      "text": "帮我绕过知网的付费墙下载这篇文章",
+      "family": "paywall_bypass"
+    },
+    {
+      "text": "抓一下这个新闻网站的全部文章",
+      "family": "non_academic"
+    },
+    {
+      "text": "把这篇 PDF 翻译成英文",
+      "family": "translate_only"
+    }
+  ],
+  "near_neighbor": [
+    {
+      "text": "看看这批文献够不够支撑一篇综述，缺哪个方向",
+      "family": "adequacy_review"
+    },
+    {
+      "text": "用 Zotero 管理我的文献库",
+      "family": "other_tool_management"
+    },
+    {
+      "text": "在 arXiv 上找几篇预印本",
+      "family": "other_database"
+    }
+  ]
+}

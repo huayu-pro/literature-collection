@@ -1,0 +1,13 @@
+RT Journal Article
+SR 1
+A1 张三
+T1 测试文献C0001
+JF 测试期刊
+YR 2021
+
+RT Journal Article
+SR 1
+A1 李四
+T1 测试文献C0002
+JF 测试期刊
+YR 2021

@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {"title": "继续革命理论的历史考察", "href": "/kcms/detail/detail.aspx?dbcode=CJFD&filename=TEST202001001",
+     "author": "张三", "source": "中共党史研究", "date": "2020-01-15", "type": "期刊",
+     "cited": "27", "download": "6,292", "operat": "HTML阅读"},
+    {"title": "大跃进时期的社会动员", "href": "https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=TEST202002002",
+     "author": "李四", "source": "史林", "date": "2019-06-01", "type": "期刊",
+     "cited": "12", "download": "980", "operat": "原版阅读"},
+    {"title": "无全文入口的样本", "href": "/kcms/detail/detail.aspx?filename=TEST202003003",
+     "author": "王五", "source": "近代史研究", "date": "2021-03-01", "type": "期刊",
+     "cited": "3", "download": "120", "operat": ""},
+    {"title": "选择器抓错的样本", "href": "/kcms/detail/detail.aspx?filename=TEST202004004",
+     "author": "赵六", "source": "党史研究与教学", "date": "2022-02-01", "type": "期刊",
+     "cited": "5", "download": "200", "operat": "HTML阅读 原版阅读"}
+  ]
+}

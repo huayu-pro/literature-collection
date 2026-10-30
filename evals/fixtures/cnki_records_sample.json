@@ -1,0 +1,44 @@
+[
+ {
+  "rid": "C0001",
+  "platform": "cnki",
+  "title": "数字技术赋能基层治理的机制研究",
+  "authors": "张三;李四",
+  "source": "公共管理学报",
+  "year": "2023",
+  "issue": "2",
+  "volume": "20",
+  "pages": "12-25",
+  "keywords": [
+   "数字治理",
+   "基层治理"
+  ],
+  "abstract": "摘要正文。",
+  "issn": "1006-0863",
+  "cn": "23-1405/D",
+  "cited": 45,
+  "downloads": 1200,
+  "url": "https://kns.cnki.net/kcms2/article/abstract?v=sample1",
+  "doi": "10.16749/j.cnki.23-1405/d.2023.02.002",
+  "access": "HTML",
+  "quality_tags": [
+   "CSSCI"
+  ],
+  "type": "期刊"
+ },
+ {
+  "rid": "C0002",
+  "platform": "cnki",
+  "title": "字段残缺的样例记录（无卷期关键词）",
+  "authors": "王五",
+  "source": "治理研究",
+  "year": "2024",
+  "cited": 2,
+  "downloads": 30,
+  "url": "",
+  "doi": "",
+  "access": "",
+  "quality_tags": [],
+  "type": "期刊"
+ }
+]
